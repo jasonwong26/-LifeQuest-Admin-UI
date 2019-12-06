@@ -1,0 +1,80 @@
+{
+  "name": "lifequest-admin-ui",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Jason Wong",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonwong26/LifeQuest-Admin-UI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonwong26/LifeQuest-Admin-UI/issues"
+  },
+  "homepage": "https://lifequest.developermouse.com",
+  "scripts": {
+    "lint": "tslint 'src/**/*.ts?(x)' || exit 0",
+    "lint:fix": "tslint 'src/**/*.ts?(x)' --fix",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "pretest": "node tools/testSetup.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@developermouse/lifequest-react-core": "^1.0.1",
+    "@developermouse/ui-react-core": "^1.0.7",
+    "auth0-js": "^9.10.2",
+    "bootstrap": "^3.4.1",
+    "connected-react-router": "^4.5.0",
+    "react": "^16.11.0",
+    "react-beautiful-dnd": "^9.0.2",
+    "react-bootstrap": "^0.32.4",
+    "react-click-outside": "^3.0.1",
+    "react-dom": "^16.11.0",
+    "react-fontawesome": "^1.6.1",
+    "react-markdown": "^4.2.2",
+    "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "shortid": "^2.2.14",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/auth0-js": "^8.11.12",
+    "@types/jest": "24.0.22",
+    "@types/node": "12.12.7",
+    "@types/react": "16.9.11",
+    "@types/react-beautiful-dnd": "^7.1.2",
+    "@types/react-bootstrap": "^0.32.17",
+    "@types/react-click-outside": "^3.0.3",
+    "@types/react-dom": "16.9.4",
+    "@types/react-fontawesome": "^1.6.4",
+    "@types/react-redux": "^6.0.14",
+    "@types/react-router-bootstrap": "^0.24.5",
+    "@types/react-router-dom": "^4.3.3",
+    "@types/shortid": "0.0.29",
+    "@types/toastr": "^2.1.37",
+    "redux-devtools-extension": "^2.13.8",
+    "typescript": "3.7.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
